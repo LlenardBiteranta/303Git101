@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: #070910;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #937b6e;
+  color: #ffffff;
+}
+
+.header {
+  background-image: url("../Biteranta-portfolio-website/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 550px;
+  display: grid;
+  padding: 100px 50px;
+}
+
+.overplay {
+  place-self: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  color: #ffffff;
+  padding: 80px;
+  width: 80%;
+}
+
+.about {
+  padding: 120px 50px;
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.content {
+  place-self: center;
+  text-align: center;
+  padding: 65px 65px 65px 0px;
+  width: 50%;
+  letter-spacing: 0.8px;
+}
+
+.about-image {
+  place-self: center;
+  width: 50%;
+}
+
+.about-image img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #000000;
+}
+.responsive {
+  padding: 6px 6px;
+  display: inline-grid;
+  width: 33%;
+  box-sizing: border-box;
+}
+@keyframes changeColor {
+  0%{
+  color: aqua;
+  transform:My hobbies(10deg);
+  }
+  25%{
+    color: coral;
+    transform:My Hobbies(20deg);
+  }
+  50%{
+    color:tomato;
+    transform:My Hobbies(30deg);
+  }
+  75%{
+    color: pink;
+    transform:My Hobbies(40deg);
+  }
+  100%{
+    color: yellowgreen;
+    transform:My Hobbies(50deg);
+  }
+}
+
+
+
+
+

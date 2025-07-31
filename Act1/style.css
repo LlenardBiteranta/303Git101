@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: #070910;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #937b6e;
+  color: #ffffff;
+}
+
+.header {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 550px;
+  display: grid;
+  padding: 100px 50px;
+}
+
+.overplay {
+  place-self: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  color: #ffffff;
+  width: 80%;
+}
+
+.about {
+  padding: 120px 0px;
+  display: flex;
+  background-color: #111211;
+  color: #fff;
+}
+
+.content {
+  place-self: center;
+  text-align: left;
+  padding: 50px 50px;
+  width: 50%;
+  letter-spacing: 0.8px;
+}
+
+.about-image {
+  place-self: center;
+  width: 50%;
+}
+
+.about-image img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
